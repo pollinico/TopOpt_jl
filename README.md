@@ -14,8 +14,8 @@ TopOptOC()
 In this way the code runs with the default input values.  
 The main function is defined as: TopOptOC(nelx, nely, rmin, volfrac, penal, ft), where:
 <ul>
-  <li>nelx is the number of element in the x direction</li> 
-  <li>nely is the number of element in the y direction</li> 
+  <li><i>nelx</i> is the number of finite elements in the x direction</li> 
+  <li>nely is the number of finite elements in the y direction</li> 
   <li>rmin is the filter radius</li>
   <li>volfrac is the solid volume fraction allowed</li> 
   <li>penal is the parameter the defines the SIMP interpolation scheme</li>
