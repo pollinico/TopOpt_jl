@@ -7,7 +7,7 @@ Efficient topology optimization in MATLAB using 88 lines of code, E. Andreassen,
 If you haveve used the topology optimization Julia code provided in this repository in your research work, or find it useful in any way, please consider to cite:
 ```
 @misc{nipol2020tojl,
-  author = {Pollini, Nicolo},
+  author = {Pollini, Nicol{\`o}},
   title = {Topology optimization with Julia},
   year = {2020},
   publisher = {GitHub},
