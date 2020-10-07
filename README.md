@@ -12,7 +12,10 @@ include("TopOpt_Julia.jl")
 TopOptOC()
 ```   
 In this way the code runs with the default input values.  
-The main function is defined as: TopOptOC(nelx, nely, rmin, volfrac, penal, ft)    
+The main function is defined as: TopOptOC(nelx, nely, rmin, volfrac, penal, ft), where:
+<ul>
+  <li>nelx is the number of element in the x direction</li> 
+</ul>
 
 If you have used the topology optimization Julia code provided in this repository in your research work, or find it useful in any way, please consider to cite:
 ```
