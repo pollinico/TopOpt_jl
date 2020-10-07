@@ -15,6 +15,11 @@ In this way the code runs with the default input values.
 The main function is defined as: TopOptOC(nelx, nely, rmin, volfrac, penal, ft), where:
 <ul>
   <li>nelx is the number of element in the x direction</li> 
+  <li>nely is the number of element in the y direction</li> 
+  <li>rmin is the filter radius</li>
+  <li>volfrac is the solid volume fraction allowed</li> 
+  <li>penal is the parameter the defines the SIMP interpolation scheme</li>
+  <li>ft is the type of filtering, 1 activates the sensitivity filter, 2 activates the density filter.</li> 
 </ul>
 
 If you have used the topology optimization Julia code provided in this repository in your research work, or find it useful in any way, please consider to cite:
