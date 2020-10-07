@@ -19,7 +19,7 @@ The main function is defined as: TopOptOC(nelx, nely, rmin, volfrac, penal, ft),
   <li><i>rmin</i> is the filter radius;</li>
   <li><i>volfrac</i> is the solid volume fraction allowed;</li> 
   <li><i>penal</i> is the parameter the defines the SIMP interpolation scheme;</li>
-  <li><i>ft</i> is the type of filtering, 1 activates the sensitivity filter, 2 activates the density filter.</li> 
+  <li><i>ft</i> is the type of filtering, ft=1 activates the sensitivity filter, ft=2 activates the density filter.</li> 
 </ul>
 
 If you have used the topology optimization Julia code provided in this repository in your research work, or find it useful in any way, please consider to cite:
