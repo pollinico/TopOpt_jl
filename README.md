@@ -23,7 +23,7 @@ The main function is defined as: TopOptOC(nelx, nely, rmin, volfrac, penal, ft),
 </ul>
 
 
- Extensions and improvements are welcome and strongly encouraged!   
+ Extensions and improvements are welcome and strongly encouraged :smiley:   
   
   
 If you have used the topology optimization Julia code provided in this repository in your research work, or find it useful in any way, please consider to cite:
