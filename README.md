@@ -22,6 +22,10 @@ The main function is defined as: TopOptOC(nelx, nely, rmin, volfrac, penal, ft),
   <li><i>ft</i> is the type of filtering, ft=1 activates the sensitivity filter, ft=2 activates the density filter.</li> 
 </ul>
 
+
+ Extensions and improvements are welcome and strongly encouraged!   
+  
+  
 If you have used the topology optimization Julia code provided in this repository in your research work, or find it useful in any way, please consider to cite:
 ```
 @misc{nipol2020tojl,
