@@ -18,7 +18,7 @@ The main function is defined as: TopOptOC(nelx, nely, rmin, volfrac, penal, ft),
   <li><i>nely</i> is the number of finite elements in the y direction;</li> 
   <li><i>rmin</i> is the filter radius;</li>
   <li><i>volfrac</i> is the solid volume fraction allowed;</li> 
-  <li><i>penal</i> is the parameter the defines the SIMP interpolation scheme;</li>
+  <li><i>penal</i> is the parameter that defines the SIMP interpolation scheme;</li>
   <li><i>ft</i> is the type of filtering, ft=1 activates the sensitivity filter, ft=2 activates the density filter.</li> 
 </ul>
 
