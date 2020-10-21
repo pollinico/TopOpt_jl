@@ -143,7 +143,7 @@ function TopOptOC(nelx = 150::Int64, nely = 50::Int64,
   color = :greys, grid=false, border=nothing, aspect_ratio=:equal)
 end
 #%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-# This code was written by Nicolo Pollini,                                %
+# This code was written by Nicolò Pollini,                                %
 # Department of Wind Energy,                                              %  
 # Technical University of Denmark.                                        %
 #                                                                         %
