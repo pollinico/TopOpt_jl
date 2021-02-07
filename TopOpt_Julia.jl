@@ -51,7 +51,7 @@ function optimize!(F::Array{Float64,1}, U::Array{Float64,1},
       s = @sprintf "It: %i  Obj.: %.2f  Ch: %.3f" loop c change;
       println(s)
     end
-    return x
+    return xPhys
 end
 function optimalityCriteria!(x::Array{Float64,2}, xPhys::Array{Float64,2}, xnew::Array{Float64,2}, 
                             dc::Array{Float64,2}, dv::Array{Float64,2}, H::SparseMatrixCSC{Float64,Int64}, 
