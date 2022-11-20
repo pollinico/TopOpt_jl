@@ -144,10 +144,10 @@ function TopOptOC(nelx = 150::Int64, nely = 50::Int64,
 end
 #%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 # This code was written by Nicolò Pollini,                                %
-# Department of Wind Energy,                                              %  
-# Technical University of Denmark.                                        %
+# Technion - Israel Institute of Technology                               %  
 #                                                                         %
-# Contact: nicolo@alumni.technion.ac.il                                   %
+#                                                                         %
+# Contact: nicolo@technion.ac.il                                          %
 #                                                                         %
 # Code repository: https://github.com/pollinico/topopt_jl                 %
 #                                                                         %
