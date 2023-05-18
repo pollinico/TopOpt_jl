@@ -26,14 +26,3 @@ The main function is defined as: TopOptOC(nelx, nely, rmin, volfrac, penal, ft),
  Extensions and improvements are welcome and strongly encouraged :smiley:   
   
   
-If you have used the topology optimization Julia code provided in this repository in your research work, or find it useful in any way, please consider to cite:
-```
-@misc{nipol2020tojl,
-  author = {Pollini, Nicol{\`o}},
-  title = {A 2-D topology optimization code written in Julia},
-  year = {2020},
-  publisher = {GitHub},
-  journal = {GitHub repository},
-  howpublished = {\url{https://github.com/pollinico/topopt_jl}},
-  }
-  ```
