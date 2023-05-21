@@ -8,7 +8,7 @@ Details of the MATLAB implementation are discussed in the paper:
 
 To use the code, run in Julia the file ```TopOpt_Julia.jl```.   
 
-The main function is defined as: TopOptOC(nelx, nely, rmin, volfrac, penal, ft), where:
+The main function is defined as: TopOpt(nelx, nely, rmin, volfrac, penal, ft,alg), where:
 <ul>
   <li><i>nelx</i> is the number of finite elements in the x direction;</li> 
   <li><i>nely</i> is the number of finite elements in the y direction;</li> 
@@ -16,6 +16,7 @@ The main function is defined as: TopOptOC(nelx, nely, rmin, volfrac, penal, ft),
   <li><i>volfrac</i> is the solid volume fraction allowed;</li> 
   <li><i>penal</i> is the parameter that defines the SIMP interpolation scheme;</li>
   <li><i>ft</i> is the type of filtering, ft=1 activates the sensitivity filter, ft=2 activates the density filter.</li> 
+  <li><i>alg</i> is the optimization algorithm chosen, alg="OC" uses the optimality criteria method, alg="MMA" uses the method of moving asymptotes.</li> 
 </ul>
 
 The Julia code provided in this respository uses an implementation of the Method of Moving Asymptotes (Svanberg, 1987), which is based on the GCMMA-MMA-code originally written by Prof. Krister Svanberg for MATLAB. The original code can be obtained from http://www.smoptit.se/ and is distributed under the GNU General Public License.   
