@@ -8,7 +8,7 @@ Details of the MATLAB implementation are discussed in the paper:
 
 To use the code, run in Julia the file ```TopOpt_Julia.jl```.   
 
-The main function is defined as: TopOpt(nelx, nely, rmin, volfrac, penal, ft,alg), where:
+The main function is defined as: TopOpt(nelx, nely, rmin, volfrac, penal, ft, alg), where:
 <ul>
   <li><i>nelx</i> is the number of finite elements in the x direction;</li> 
   <li><i>nely</i> is the number of finite elements in the y direction;</li> 
