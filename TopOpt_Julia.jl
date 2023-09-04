@@ -206,7 +206,7 @@ end
 # Run the main code
 nelx = 140 
 nely = 60
-rmin = 6
+rmin = 5
 volfrac = 0.4
 penal = 3.0 
 ft = 2 # options: 1 sensitivity filtering, 2 density filtering
