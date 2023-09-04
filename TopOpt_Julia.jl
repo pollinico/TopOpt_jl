@@ -46,7 +46,7 @@ function optimize!(F::Array{Float64,1}, U::Array{Float64,1},
       f0 = 1.0
     end
     maxoutit  = 1000
-    kkttol  = 1e-3
+    kkttol  = 5e-5
     kktnorm = kkttol+10
     loop = 0
     change = 1.0
@@ -55,7 +55,7 @@ function optimize!(F::Array{Float64,1}, U::Array{Float64,1},
     dc = zeros(nely, nelx)
     dv = zeros(nely, nelx)
     ce = zeros(nely, nelx)
-    while (change > 1e-2) & (loop < maxoutit)
+    while (kktnorm > kkttol) & (change > 1e-2) & (loop < maxoutit)
       loop = loop +1
       # FE-ANALYSIS
       sK = reshape(vec(KE)*(Emin.+vec(xPhys)'.^penal*(E0-Emin)),64*nelx*nely)
@@ -204,13 +204,13 @@ end
 
 ################################################################################
 # Run the main code
-nelx = 70 
-nely = 30
-rmin = 3
+nelx = 140 
+nely = 60
+rmin = 6
 volfrac = 0.4
 penal = 3.0 
 ft = 2 # options: 1 sensitivity filtering, 2 density filtering
-alg = "OC" # options: "OC" or "MMA"
+alg = "MMA" # options: "OC" or "MMA"
 TopOpt(nelx,nely,rmin,volfrac,penal,ft,alg)
 
 
